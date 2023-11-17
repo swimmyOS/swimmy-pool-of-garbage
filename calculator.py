@@ -1,3 +1,4 @@
+#the calculator itself
 def calculate(n1,n2,op):
     if op == '+':
         result = n1+n2
@@ -12,7 +13,7 @@ def calculate(n1,n2,op):
 
     return result
 
-
+#user interface or whatever
 number1 = float(input('Enter first number: '))
 op = input ('Enter operator (+,-,*,/,**): ')
 number2 = float(input('Enter second number: '))
